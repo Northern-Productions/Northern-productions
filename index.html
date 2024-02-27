@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Quintessential&display=swap" rel="stylesheet">
+  <title>Northern Productions</title>
+</head>
+<body>
+
+  <!-- This displays the loading screen for 6 seconds before the main content is displayed -->
+  <div id="loading-screen">
+    <div id="loading-screen-img-ctn">
+      <img id="tree-logo" src="./images/Tree of life.png" alt="">
+      <img id="tree-logo-cutout" src="./images/Tree of life cut out.png" alt="">
+    </div>
+    <h1 id="text-logo">Northern Productions</h1>
+  </div>
+  
+  <!-- This is the main content -->
+  <div id="main-content">
+    <header>
+      <div class="header-ctn">
+        <div class="header-left">
+          <div class="header-img-ctn">
+            <img tabindex="0" class="header-img" src="./images/Rob headshot.jpeg" alt="Image of the developer">
+          </div>
+          <div class="header-text">
+            <h1 tabindex="0">Robert Schultz</h1>
+            <h2 tabindex="0">Web Developer</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-right">
+          <img src="./images/Tree of life.png" alt="Tree of life logo">
+          <div>Northern Productions</div>
+        </div>
+      </div>
+    </header>
+    <div class="header-nav">
+      <ul>
+        <li>
+          <button tabindex="0" id="websites-btn" class="nav-button active">Websites</button>
+        </li>
+        <li>
+          <button tabindex="0" id="about-btn" class="nav-button">About Me</button>
+        </li>
+        <li>
+          <button tabindex="0" id="contact-btn" class="nav-button">Contact</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Websites section -->
+    <div id="websites">
+
+      <div class="website-title">
+        <h2 tabindex="0">Websites</h2>
+        <p tabindex="0">
+          Below are the websites I've made on my own as a freelance web developer
+        </p>
+        <hr>
+      </div>
+      <!-- Container for website.js -->
+      <div id="website-ctn"></div>
+    </div>
+
+    <!-- Container for about.js -->
+    <div id="about-ctn"></div>
+
+    <!-- Container for contact.js -->
+    <div id="contact-ctn"></div>
+    
+  </div><!-- main-content end -->
+
+  <script src="./loading-screen.js"></script>
+  <script type="module" src="./website.js"></script>
+  <script type="module" src="./about.js"></script>
+  <script type="module" src="./contact.js"></script>
+  <script src="./nav.js"></script>
+</body>
+</html>

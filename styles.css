@@ -1,0 +1,235 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+/* Loading screen styles */
+#loading-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#loading-screen-img-ctn {
+  position: relative;
+}
+
+#tree-logo,
+#tree-logo-cutout {
+  width: 15rem;
+  height: 15rem;
+  opacity: 0;
+}
+
+#tree-logo-cutout {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#text-logo {
+  color: white;
+  font-family: "Protest Revolution", sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  opacity: 0;
+}
+
+#main-content {
+  opacity: 0;
+}
+
+/* CSS for active container */
+#about-ctn {
+  display: none;
+}
+
+#contact-ctn {
+  display: none;
+}
+
+/* Main content styles */
+
+/* Header styles */
+.header-ctn {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  max-height: 13rem;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+}
+
+.header-right {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 5rem 0 0;
+}
+
+.header-right img {
+  width: 10rem;
+}
+
+.header-right div {
+  color: white;
+  font-size: 30px;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.header-img-ctn {
+  width: 10rem;
+  margin: 0 2rem 0 5rem;
+}
+
+.header-img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-text {
+  margin: 1rem 0;
+  color: white;
+}
+
+.header-text h1,
+.header-text h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.header-text ul {
+  padding-left: 1.2rem;
+  font-size: 23px;
+  margin: 1rem 0 0 0;
+}
+
+/* Header Nav */
+.header-nav {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #800000e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-button {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  color: gainsboro;
+}
+
+/* Websites styles */
+#websites {
+  margin-top: 1rem;
+}
+
+.website-title {
+  width: 90%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+.website-title h2 {
+  margin-top: 0;
+}
+
+.hr-spacer {
+  width: 90%;
+
+}
+
+.website:nth-child(3),
+.website:nth-child(7) {
+  flex-direction: row-reverse;
+}
+
+.website {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 5rem;
+}
+
+.site-img {
+  text-align: center;
+}
+
+.site-text {
+  width: 50%;
+  margin: 0 2rem;
+}
+
+.site-text h3 {
+  font-size: 30px;
+}
+
+.site-text p {
+  font-size: 20px;
+}
+
+.site-text a {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.site-text a:hover {
+  color: rgb(115, 0, 255);
+}
+
+.website-img {
+  width: 30rem;
+  height: 25rem;
+}
+
+/* About me section styles */
+#about-ctn,
+#contact-ctn {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about,
+.contact {
+  text-align: center;
+  box-shadow: #1a1a1a -10px 10px 20px -15px;
+  padding: 0 2rem 1rem;
+}
+
+.about h3 {
+  font-size: 30px;
+}
+
+.about p,
+.contact p {
+  font-size: 23px;
+}
