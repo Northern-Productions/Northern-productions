@@ -1,13 +1,5 @@
 export const websites = [
   {
-    img: "./images/Kristie website display monitor and phone.png",
-    imgAlt: "Screenshot of Kristie's Excellent Adventures",
-    name: "Kristie's Excellent Adventures",
-    description:
-      "Kristie's Excellent Adventures is a children's book series. The client wanted a website to showcase the books and provide a way for people to purchase them. The website is built with HTML and CSS.",
-    url: "https://kristie.vercel.app/index.html",
-  },
-  {
     img: "./images/A Reel Deal website display monitor and phone.png",
     imgAlt: "Screenshot of A Reel Deal",
     name: "A Reel Deal SGI",
@@ -22,6 +14,14 @@ export const websites = [
     description:
       "Healy Database is a website that provides a simple and concise way to reference the hundreds of different programs the quantum resonance devices offer, and assists the client and their sales team to close deals with their customers. The client and their sales team are very happy to have this website at their disposal. The website is built with HTML, CSS, and JavaScript.",
     url: "https://healydatabase.vercel.app/",
+  },
+  {
+    img: "./images/Kristie website display monitor and phone.png",
+    imgAlt: "Screenshot of Kristie's Excellent Adventures",
+    name: "Kristie's Excellent Adventures",
+    description:
+      "Kristie's Excellent Adventures is a children's book series. The client wanted a website to showcase the books and provide a way for people to purchase them. The website is built with HTML and CSS.",
+    url: "https://kristie.vercel.app/index.html",
   },
   {
     img: "./images/FE Evidence website display monitor and phone.png",
