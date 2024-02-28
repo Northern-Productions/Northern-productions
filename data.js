@@ -4,7 +4,7 @@ export const websites = [
     imgAlt: "Screenshot of A Reel Deal",
     name: "A Reel Deal SGI",
     description:
-      "A Reel Deal SGI is a beach house rental in St. George Island, Florida. The owner wanted a way to advertise and show the home to potential renters in ways other web services couldn't provide. The website is built with HTML, CSS, and JavaScript.",
+      "A Reel Deal SGI is a high-end beach house rental in St. George Island, Florida. The owner wanted a way to advertise and show the home to potential renters in ways other web services couldn't provide, with the goal of increasing bookings. The website is built with HTML, CSS, and JavaScript.",
     url: "https://areeldealsgi.com/",
   },
   {
@@ -20,7 +20,7 @@ export const websites = [
     imgAlt: "Screenshot of Kristie's Excellent Adventures",
     name: "Kristie's Excellent Adventures",
     description:
-      "Kristie's Excellent Adventures is a children's book series. The client wanted a website to showcase the books and provide a way for people to purchase them. The website is built with HTML and CSS.",
+      "Kristie's Excellent Adventures is a children's book series. The client wanted a website to promote the series, showcase the books and increase sales. The website is built with HTML and CSS.",
     url: "https://kristie.vercel.app/index.html",
   },
   {
