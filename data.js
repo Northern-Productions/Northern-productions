@@ -36,7 +36,7 @@ export const websites = [
 export const aboutMe = {
   title: "About Me",
   description:
-    "I am a web developer that enjoys creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. I am always looking to learn new technologies and improve my skills. I am currently looking for a full-time position as a web developer.",
+    "I am a web developer who enjoys creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. As a lifelong learner I am always looking to explore new technologies and upgrade my skills. I am currently open to freelance or a full-time opportunity as a web developer.",
 };
 
 export const contact = {
