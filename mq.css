@@ -1,12 +1,4 @@
-@media (max-width: 768px) {
-  .header-img-ctn {
-    margin: 0 2rem 0 0rem;
-  }
-
-  .header-right {
-    margin: 0 1rem 0 0;
-  }
-
+@media (max-width: 940px) {
   .website,
   .website:nth-child(3),
   .website:nth-child(7) {
@@ -18,13 +10,23 @@
     margin-bottom: 3rem;
   }
 
+  .site-text {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-img-ctn {
+    margin: 0 2rem 0 0rem;
+  }
+
+  .header-right {
+    margin: 0 1rem 0 0;
+  }
+
   .site-img img {
     width: 80%;
     height: 100%;
-  }
-
-  .site-text {
-    width: 90%;
   }
 
   #about-ctn,
