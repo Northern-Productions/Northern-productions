@@ -43,5 +43,5 @@ export const contact = {
   title: "Contact Me",
   description:
     "Feel free to reach out to me with any questions or opportunities.",
-  email: "Robschultz88@gmail.com",
+  email: "Robertschultz1734@gmail.com",
 };
