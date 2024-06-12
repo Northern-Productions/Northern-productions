@@ -23,14 +23,6 @@ export const websites = [
       "Kristie's Excellent Adventures is a children's book series. The client wanted a website to promote the series, showcase the books and increase sales. The website is built with HTML and CSS.",
     url: "https://kristie.vercel.app/index.html",
   },
-  {
-    img: "./images/FE Evidence website display monitor and phone.png",
-    imgAlt: "Screenshot of FE Evidence",
-    name: "Flat Earth Evidence",
-    description:
-      "Flat Earth Evidence is a website that displays the evidence that supports the flat earth model. The client wanted a place to display their collection of evidence in a simple, organized, and user friendly way. The website is built with HTML, CSS, and JavaScript.",
-    url: "https://flatearthevidence.vercel.app/",
-  },
 ];
 
 export const aboutMe = {
